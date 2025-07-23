@@ -30,12 +30,12 @@ An AI-powered tool for comprehensive startup pitch deck evaluation, providing qu
 python -m venv venv
 source venv/bin/activate  
 ```
-Install dependencies:
+## Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-Set up environment:
+## Set up environment:
 
 ```bash
 echo "GROQ_API_KEY=your_api_key_here" > .env
