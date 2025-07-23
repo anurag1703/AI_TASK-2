@@ -26,9 +26,10 @@ An AI-powered tool for comprehensive startup pitch deck evaluation, providing qu
 
 ## Create and activate virtual environment:
 
-bash
+```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  
+```
 Install dependencies:
 
 bash
