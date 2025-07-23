@@ -1,0 +1,9 @@
+streamlit
+pymupdf
+transformers
+langchain-groq
+langchain-core
+pandas
+matplotlib
+sentence-transformers
+python-dotenv
