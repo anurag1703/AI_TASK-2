@@ -32,28 +32,31 @@ source venv/bin/activate
 ```
 Install dependencies:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 Set up environment:
 
-bash
+```bash
 echo "GROQ_API_KEY=your_api_key_here" > .env
-Usage
+```
+## Usage
 Place pitch decks in the data/ folder (or use direct upload)
 
 ## Launch the application:
 
-bash
+```bash
 streamlit run final.py
-In the web interface:
+```
+#### In the web interface:
 
-Select analysis mode (local files or upload)
+-Select analysis mode (local files or upload)
 
-Choose evaluation dimensions
+-Choose evaluation dimensions
 
-Adjust weighting as needed
+-Adjust weighting as needed
 
-Click "Analyze Pitch Deck"
+-Click "Analyze Pitch Deck"
 
 ## Directory Structure
 text
