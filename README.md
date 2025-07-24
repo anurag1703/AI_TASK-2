@@ -41,7 +41,7 @@ pip install -r requirements.txt
 echo "GROQ_API_KEY=your_api_key_here" > .env
 ```
 ## Usage
-Place pitch decks in the data/ folder (or use direct upload)
+```Place pitch decks in the data/ folder (or use direct upload)```
 
 ## Launch the application:
 
