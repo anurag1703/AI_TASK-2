@@ -20,8 +20,8 @@ An AI-powered tool for comprehensive startup pitch deck evaluation, providing qu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pitch-deck-analyzer.git
-   cd pitch-deck-analyzer
+   git clone https://github.com/anurag1703/AI_TASK-2.git
+   cd AI_TASK-2
 
 
 ## Create and activate virtual environment:
