@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz  # PyMuPDF
+import fitz
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer
 from langchain_groq import ChatGroq
@@ -153,10 +153,10 @@ def generate_ai_feedback(text, scores, file_name):
         "company": company,
         "year": year,
         "metrics": "\n".join(f"{k}: {v}/10" for k,v in scores.items()),
-        "text": text[:8000]  # Safe truncation
+        "text": text[:8000] 
     }
     
-    # Foolproof prompt template
+    # prompt template
     prompt_template = """
     Analyze this pitch deck from {company} (assumed {year}):
     
@@ -233,7 +233,7 @@ if current_file and st.button("Analyze Pitch Deck"):
                 except:
                     pass
 
-# --- Footer ---
+
 st.markdown("---")
 st.markdown("""
 **Instructions**:
